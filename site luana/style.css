@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.cabecalho {
+    background-color: #e7e42d;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.cabecalho-imagem{
+    width: 10%;
+}
+
+.cabecalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 16px;
+}
+
+.cabecalho-lista-item a{
+    text-decoration: none; 
+    color: rgb(0, 0, 0);
+}
+
+.Marcas-imagem{
+    width: 25%;
+}
+
+#Marcas{
+    background-image: linear-gradient(#e7e42d,#f30000);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
+}
+
+.Marcas-div-conteudo{
+    width: 35%;
+}
+
+
+.Marcas-titulo{
+    padding: 24px 0;
+}
+
+#grife{
+    padding: 24px 0;
+}
+
+
+.grife-imagem{
+    width: 120px;
+}
+
+.grife-icone{
+    width: 24px;
+    padding: 4px 8px;
+}
+
+.grife-div{
+    text-align: center;
+    padding: 16px 0;
+}
+
+.grife-titulo{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.grife-todos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: black;
+    text-align: center;
+}
+
+.rodape-imagem{
+    height: 45px;
+    padding: 12px 0;
+   
+}
